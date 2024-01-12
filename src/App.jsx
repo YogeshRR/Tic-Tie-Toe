@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Player from './component/player.jsx';
 import GameBoard from './component/GameBoard.jsx';
 import Log from './component/Log.jsx';
+import { GAMING_COMBINATIONS } from './component/WINING_COMBINATION.js';
 
 function derivedActivePlayer(gameTurns) {
 
